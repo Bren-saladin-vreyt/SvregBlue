@@ -11,6 +11,8 @@ on:
 jobs:
   probe:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-java@v5
@@ -30,7 +32,12 @@ jobs:
           : > probe/all.txt
           for f in $(cat probe/files.txt); do echo "===== ${f#src2/}" >> probe/all.txt; grep -v -E '^\s*(import |$|//)' "$f" >> probe/all.txt; done
           wc -c probe/all.txt
-      - uses: actions/upload-artifact@v7
-        with:
-          name: probe
-          path: probe/
+      - name: publish to the probe branch (readable with plain git)
+        run: |
+          cd probe
+          git init -q -b probe
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -qm "probe $GITHUB_RUN_ID"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" probe
