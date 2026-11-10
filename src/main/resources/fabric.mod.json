@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "svregblue",
+	"version": "${version}",
+	"name": "SvregBlue",
+	"description": "Blue hour world: deep ultramarine nights, navy shadows and blue fog. Made to sit next to SvregSky.",
+	"authors": [
+		"Bren"
+	],
+	"license": "MIT",
+	"icon": "assets/svregblue/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.svreg.blue.SvregBlue"
+		]
+	},
+	"mixins": [
+		{
+			"config": "svregblue.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"svregsky": "*"
+	}
+}

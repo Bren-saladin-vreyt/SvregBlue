@@ -1,0 +1,20 @@
+{
+	"svregblue.options.button": "SvregBlue",
+	"svregblue.options.title": "SvregBlue",
+	"svregblue.options.header.grade": "Blue Grade",
+	"svregblue.options.enabled": "SvregBlue",
+	"svregblue.options.enabled.tooltip": "Turn every SvregBlue effect on or off.",
+	"svregblue.options.mode": "Blue Hour",
+	"svregblue.options.mode.tooltip": "When the world turns blue: from dusk through the night, only at night, or all day.",
+	"svregblue.options.mode.dusk_night": "Dusk + Night",
+	"svregblue.options.mode.night": "Night",
+	"svregblue.options.mode.always": "All Day",
+	"svregblue.options.strength": "Blue Strength",
+	"svregblue.options.strength.tooltip": "How strongly the world is pulled toward deep blue. 0% = off.",
+	"svregblue.options.lift": "Navy Shadows",
+	"svregblue.options.lift.tooltip": "Dark areas become navy blue instead of pitch black. Higher = brighter nights.",
+	"svregblue.options.fog": "Blue Fog",
+	"svregblue.options.fog.tooltip": "Distance fog turns blue too, so the world's edge melts into the sky.",
+	"svregblue.options.warm_lights": "Warm Lights",
+	"svregblue.options.warm_lights.tooltip": "Torches, lanterns and fire stay orange inside the blue world."
+}

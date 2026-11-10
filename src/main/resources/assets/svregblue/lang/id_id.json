@@ -1,0 +1,20 @@
+{
+	"svregblue.options.button": "SvregBlue",
+	"svregblue.options.title": "SvregBlue",
+	"svregblue.options.header.grade": "Warna Biru",
+	"svregblue.options.enabled": "SvregBlue",
+	"svregblue.options.enabled.tooltip": "Nyalakan atau matikan semua efek SvregBlue.",
+	"svregblue.options.mode": "Jam Biru",
+	"svregblue.options.mode.tooltip": "Kapan dunia jadi biru: mulai senja sampai malam, cuma malam, atau seharian.",
+	"svregblue.options.mode.dusk_night": "Senja + Malam",
+	"svregblue.options.mode.night": "Malam",
+	"svregblue.options.mode.always": "Seharian",
+	"svregblue.options.strength": "Kekuatan Biru",
+	"svregblue.options.strength.tooltip": "Seberapa kuat dunia ditarik ke biru tua. 0% = mati.",
+	"svregblue.options.lift": "Bayangan Navy",
+	"svregblue.options.lift.tooltip": "Bagian gelap jadi biru navy, bukan hitam pekat. Makin tinggi makin terang malamnya.",
+	"svregblue.options.fog": "Kabut Ikut Biru",
+	"svregblue.options.fog.tooltip": "Warna kabut jarak jauh ikut berubah biru, biar ujung dunia nyatu sama langit.",
+	"svregblue.options.warm_lights": "Lampu Tetap Hangat",
+	"svregblue.options.warm_lights.tooltip": "Obor, lentera dan api tetap oranye di tengah dunia biru."
+}

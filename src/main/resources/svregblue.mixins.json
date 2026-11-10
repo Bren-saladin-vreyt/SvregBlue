@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.svreg.blue.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"CloudRendererMixin",
+		"SvregSkyPostLookMixin",
+		"FogColorMixin",
+		"OptionsScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
