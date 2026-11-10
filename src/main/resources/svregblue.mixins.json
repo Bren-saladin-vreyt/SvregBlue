@@ -6,6 +6,7 @@
 		"CloudRendererMixin",
 		"SvregSkyPostLookMixin",
 		"FogColorMixin",
+		"FogSetupMixin",
 		"OptionsScreenMixin"
 	],
 	"injectors": {

@@ -90,6 +90,10 @@ public class BlueScreen extends OptionsSubScreen {
 				percent("lift", BlueConfig.lift, v -> BlueConfig.lift = v),
 				bool("fog", BlueConfig.fog, v -> BlueConfig.fog = v),
 				bool("warm_lights", BlueConfig.warmLights, v -> BlueConfig.warmLights = v));
+		this.list.addHeader(Component.translatable("svregblue.options.header.fog"));
+		small(
+				bool("thick_fog", BlueConfig.thickFog, v -> BlueConfig.thickFog = v),
+				percent("fog_density", BlueConfig.fogDensity, v -> BlueConfig.fogDensity = v));
 	}
 
 	@Override

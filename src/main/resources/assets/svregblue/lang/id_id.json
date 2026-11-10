@@ -16,5 +16,10 @@
 	"svregblue.options.fog": "Kabut Ikut Biru",
 	"svregblue.options.fog.tooltip": "Warna kabut jarak jauh ikut berubah biru, biar ujung dunia nyatu sama langit.",
 	"svregblue.options.warm_lights": "Lampu Tetap Hangat",
-	"svregblue.options.warm_lights.tooltip": "Obor, lentera dan api tetap oranye di tengah dunia biru."
+	"svregblue.options.warm_lights.tooltip": "Obor, lentera dan api tetap oranye di tengah dunia biru.",
+	"svregblue.options.header.fog": "Kabut Biru",
+	"svregblue.options.thick_fog": "Kabut Biru",
+	"svregblue.options.thick_fog.tooltip": "Kabut tebal kebiruan waktu jam biru: pohon dan bukit di kejauhan pelan-pelan hilang ke kabut. Di gua dan dalam rumah kabutnya menipis.",
+	"svregblue.options.fog_density": "Ketebalan Kabut",
+	"svregblue.options.fog_density.tooltip": "Makin tinggi, kabutnya makin dekat dan pekat. 100% = cuma kelihatan sekitar 40 blok."
 }

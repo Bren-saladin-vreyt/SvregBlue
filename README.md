@@ -16,10 +16,11 @@ Options → **SvregBlue** (under the SvregSky button):
 - **Bayangan Navy**: how much black is lifted to navy
 - **Kabut Ikut Biru**: blue distance fog
 - **Lampu Tetap Hangat**: torches and fire stay orange
+- **Kabut Biru** + **Ketebalan Kabut**: thick blue-hour fog (thinner indoors and in caves)
 
 ## Roadmap (one feature at a time)
 1. Blue Grading ✅ (this version)
-2. Kabut Biru: thicker cyan-blue fog
+2. Kabut Biru ✅
 3. Ground Mist: low mist on plains and forests
 4. Kilau Laut: moonlit sparkles and white foam on the sea
 5. Bunga Pucat, Malam Berkabut, kunang-kunang cyan

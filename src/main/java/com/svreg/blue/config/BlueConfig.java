@@ -20,6 +20,8 @@ public final class BlueConfig {
 		int lift = 60;
 		boolean fog = true;
 		boolean warmLights = true;
+		boolean thickFog = true;
+		int fogDensity = 55;
 	}
 
 	public static boolean enabled = true;
@@ -31,6 +33,9 @@ public final class BlueConfig {
 	public static float lift = 0.60F;
 	public static boolean fog = true;
 	public static boolean warmLights = true;
+	/** Kabut Biru on/off and its thickness 0..1 */
+	public static boolean thickFog = true;
+	public static float fogDensity = 0.55F;
 
 	private BlueConfig() {
 	}
@@ -59,6 +64,8 @@ public final class BlueConfig {
 			lift = clamp(d.lift) / 100F;
 			fog = d.fog;
 			warmLights = d.warmLights;
+			thickFog = d.thickFog;
+			fogDensity = clamp(d.fogDensity) / 100F;
 		} catch (Exception e) {
 			SvregBlue.LOG.warn("SvregBlue: could not read the config, using defaults", e);
 		}
@@ -73,6 +80,8 @@ public final class BlueConfig {
 			d.lift = Math.round(lift * 100);
 			d.fog = fog;
 			d.warmLights = warmLights;
+			d.thickFog = thickFog;
+			d.fogDensity = Math.round(fogDensity * 100);
 			Files.createDirectories(file().getParent());
 			Files.writeString(file(), GSON.toJson(d));
 		} catch (Exception e) {

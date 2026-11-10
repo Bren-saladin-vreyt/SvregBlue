@@ -16,5 +16,10 @@
 	"svregblue.options.fog": "Blue Fog",
 	"svregblue.options.fog.tooltip": "Distance fog turns blue too, so the world's edge melts into the sky.",
 	"svregblue.options.warm_lights": "Warm Lights",
-	"svregblue.options.warm_lights.tooltip": "Torches, lanterns and fire stay orange inside the blue world."
+	"svregblue.options.warm_lights.tooltip": "Torches, lanterns and fire stay orange inside the blue world.",
+	"svregblue.options.header.fog": "Blue Fog",
+	"svregblue.options.thick_fog": "Thick Blue Fog",
+	"svregblue.options.thick_fog.tooltip": "Thick bluish fog during the blue hour: far trees and hills slowly fade away. Thinner in caves and indoors.",
+	"svregblue.options.fog_density": "Fog Thickness",
+	"svregblue.options.fog_density.tooltip": "Higher = closer, denser fog. 100% = you see about 40 blocks."
 }
