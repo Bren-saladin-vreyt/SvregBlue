@@ -1,0 +1,13 @@
+src2/net/minecraft/client/Camera.java
+src2/net/minecraft/client/renderer/fog/FogData.java
+src2/net/minecraft/client/renderer/fog/FogRenderer.java
+src2/net/minecraft/client/renderer/fog/environment/AtmosphericFogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/BlindnessFogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/DarknessFogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/FogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/LavaFogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/MobEffectFogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/PowderedSnowFogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/WaterFogEnvironment.java
+src2/net/minecraft/client/renderer/fog/environment/package-info.java
+src2/net/minecraft/client/renderer/fog/package-info.java
